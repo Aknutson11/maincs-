@@ -21,7 +21,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 EXPOSE 5000
 
 # Define the environment variable for Flask
-ENV FLASK_APP=obiservice.py
+ENV FLASK_APP=flaskip.py
 
 #create default logging file
 RUN mkdir -p /app/logs
